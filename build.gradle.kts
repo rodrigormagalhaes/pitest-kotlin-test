@@ -37,7 +37,7 @@ configure<info.solidsoft.gradle.pitest.PitestPluginExtension> {
     avoidCallsTo.set(setOf("kotlin.jvm.internal"))
     mutators.set(setOf("STRONGER"))
 //    mutators.set(setOf("TRUE_RETURNS"))
-    targetClasses.set(setOf("ps.psp.digcom.pitestkotlintest.*"))
+    targetClasses.set(setOf("br.com.rm.pitestkotlintest.*"))
     threads.set(2)
     outputFormats.set(setOf("XML", "HTML"))
 //    mutationThreshold.set(70)

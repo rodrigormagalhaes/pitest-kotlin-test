@@ -1,4 +1,4 @@
-package ps.psp.digcom.pitestkotlintest
+package br.com.rm.pitestkotlintest
 
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
